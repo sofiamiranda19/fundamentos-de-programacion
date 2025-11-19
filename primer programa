@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPcJNxVX4Zei2/eydXpiEbe",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sofiamiranda19/fundamentos-de-programacion/blob/main/primer%20programa\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "PROGRAMA QUE SUMA DOS NUMEROS ENTEROS"
+      ],
+      "metadata": {
+        "id": "U6VIKAWOfgT3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1= int(input(\"ingrese el primer numero: \"))\n",
+        "num2= int(input(\"ingrese el segundo numero: \"))\n",
+        "print(\"la suma es: \",(num1+num2))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OYOTfLimgrJd",
+        "outputId": "14fe1efb-6c9c-4dea-e31d-4562cc6bc649"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese el primer numero: 23\n",
+            "ingrese el segundo numero: 65\n",
+            "la suma es:  88\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
