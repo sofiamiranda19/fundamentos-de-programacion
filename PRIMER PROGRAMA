@@ -1,0 +1,66 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNMD6TwbNmSIEa/k0a9mI6e",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sofiamiranda19/fundamentos-de-programacion/blob/main/PRIMER%20PROGRAMA\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "PROGRAMA QUE SUMA DOS NUMEROS ENTEROS"
+      ],
+      "metadata": {
+        "id": "U6VIKAWOfgT3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1= int(input(\"ingrese el primer numero: \"))\n",
+        "num2= int(input(\"ingrese el segundo numero: \"))\n",
+        "print(\"la suma de los dos numeros es: \", num1+num2)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hE1J2KcrfpmZ",
+        "outputId": "435311e1-e940-4cde-ff51-b16b9632a659"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ingrese el primer numero: 10\n",
+            "ingrese el segundo numero: 43\n",
+            "la suma de los dos numeros es:  53\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
